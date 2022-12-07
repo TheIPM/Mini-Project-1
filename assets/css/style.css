@@ -29,4 +29,48 @@
     border: 5px solid rgb(31, 54, 31);
     box-shadow: 5px 10px rgb(40, 56, 40);
     background-color: aquamarine;
+    text-align: center;
 }
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+form li {
+   list-style: none; 
+}
+
+.list {
+    display: none;
+  }
+  
+  .aboutus:hover + .list {
+    display: block;
+    color: red;
+  }
+
+span[data-duck] {
+    position: relative;
+    text-decoration: underline;
+    color: blue;
+    cursor: grab;
+}
+
+span[data-duck]:hover::after {
+    content: attr(data-duck);
+    position: absolute;
+    border: 1px;
+    background-color:yellow;
+    border-color: black;
+    color: rgb(0, 0, 0);
+    font-size: 50%;
+    left: 80px;
+    top: 25px;
+    padding: 7px;
+    min-width: 150px;
+
+}
+
+
