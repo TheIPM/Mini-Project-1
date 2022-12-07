@@ -30,7 +30,6 @@
     background-color: rgb(107, 139, 118);
     text-align: center;
     transform: skew(357deg, 363deg);
-    text-decoration: none;
 }
 
 .card {
@@ -91,4 +90,17 @@ button:active {
 }
 
 
-
+.rotate{
+    transform: rotate(0);
+    transition: transform 1s ease;  
+    width: 30%;
+    margin: 40px auto;
+    border: 5px solid rgb(31, 54, 31);
+    box-shadow: 5px 10px rgb(40, 56, 40);
+    background-color: rgb(107, 139, 118);
+    text-align: center;
+  }
+  
+  .press:active .rotate{
+      transform: rotate(360deg);
+  }
