@@ -57,7 +57,8 @@ form li {
   
   .aboutus:hover + .list {
     display: block;
-    color: red;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
   }
 
 span[data-duck] {
